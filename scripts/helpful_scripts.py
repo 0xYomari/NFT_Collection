@@ -51,7 +51,7 @@ def get_contract(contract_name):
         contract = Contract.from_abi(
             contract_type._name, contract_address, contract_type.abi
         )
-        return contract
+    return contract
 
 
 def deploy_mocks():
