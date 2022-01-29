@@ -34,7 +34,7 @@ contract NftCollection is ERC721, VRFConsumerBase {
         fee = _fee;
     }
 
-    function creatCollectible() public returns (bytes32) {
+    function createCollectible() public returns (bytes32) {
         bytes32 requestId = requestRandomness(keyhash, fee);
         requestIdToSender[requestId] = msg.sender;
         emit requestCollectible(requestId, msg.sender);
