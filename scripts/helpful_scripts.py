@@ -11,6 +11,11 @@ LOCAL_BLOCKCHAIN_ENVIRONMENT = [
 ]
 
 OPENSEA_URL = "https://testnets.opensea.io/assets/{}/{}"
+BREED_MAPPING = {0: "PUG", 1: "SHIBA-INU", 2: "ST-BERNARD"}
+
+
+def get_breed(breed_number):
+    return BREED_MAPPING[breed_number]
 
 
 def get_account(id=None, index=None):

@@ -22,6 +22,7 @@ def deploy_and_create():
     creating_tx = nft_collection.createCollectible({"from": account})
     creating_tx.wait(1)
     print("New token has been created!")
+    return nft_collection, creating_tx
 
 
 def main():
