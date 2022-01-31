@@ -1,12 +1,1 @@
-{
-    "name": "SHIBA-INU",
-    "description": "An adorable SHIBA-INU pup!",
-    "imgae": "",
-    "attributes": [
-        {
-            "trait_type": "cuteness",
-            "value": 100
-        }
-    ],
-    "image": "https://ipfs.io/ipfs/QmYx6GsYAKnNzZ9A6NvEKV9nf1VaDzJrqDR23Y8YSkebLU?filename=shiba-inu.png"
-}
+{"name": "SHIBA-INU", "description": "An adorable SHIBA-INU pup!", "imgae": "", "attributes": [{"trait_type": "cuteness", "value": 100}], "image": "https://ipfs.io/ipfs/QmYx6GsYAKnNzZ9A6NvEKV9nf1VaDzJrqDR23Y8YSkebLU?filename=shiba-inu.png"}
